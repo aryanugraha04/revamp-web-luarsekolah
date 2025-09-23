@@ -1,41 +1,25 @@
 {
     "version": 2,
+    "framework": null,
     "builds": [
         {
-            "src": "/public/**",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "/api/index.php",
+            "src": "api/index.php",
             "use": "vercel-php@0.7.4"
         }
     ],
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.7.4" }
+    },
     "routes": [
-        {
-            "src": "/(css|js|images|fonts|favicon|build)/(.+)",
-            "dest": "/public/$1/$2"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
+        { "src": "/(css|js|images|fonts|favicon|build)/(.*)", "dest": "/public/$1/$2" },
+        { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "outputDirectory": "public",
-    "github": {
-        "silent": true
-    },
-    "build": {
-        "env": {
-            "NPM_FLAGS": "--force"
-        }
-    },
     "env": {
         "APP_NAME": "Laravel",
         "APP_ENV": "production",
         "APP_KEY": "base64:NOIT7tc6AT6O1K0D1c/HFptvL6IkxBCsCrz18G5FwEE=",
         "APP_DEBUG": "false",
         "APP_URL": "https://revamp-luarsekolah.vercel.app/",
-        "DB_CONNECTION": "pgsql",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -43,8 +27,11 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
+
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
+        "SESSION_DRIVER": "cookie",
+        
+        "DB_CONNECTION": "pgsql"
     }
 }
