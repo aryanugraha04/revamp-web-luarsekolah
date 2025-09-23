@@ -5,7 +5,7 @@
 @section('content')
 
     {{-- Memanggil partial hero section --}}
-    {{-- @include('partials.hero_section') --}}
+    @include('partials.hero_section')
 
     {{-- Anda bisa menambahkan section lain di bawah sini --}}
     {{-- Contoh: @include('partials.popular_courses_section') --}}
