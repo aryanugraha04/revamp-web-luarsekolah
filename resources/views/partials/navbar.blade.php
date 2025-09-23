@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between h-20">
             <div class="flex items-center space-x-8">
                 <a href="/" class="flex-shrink-0">
-                    {{-- Ganti dengan tag SVG logo Anda jika ada --}}
+                    {{-- Ganti baris ini dengan komponen SVG logo Anda jika menggunakan itu --}}
                     <img class="h-8 w-auto" src="{{ asset('assets/svg/logo-luarsekolah.svg') }}" alt="Logo Luarsekolah">
                 </a>
 
