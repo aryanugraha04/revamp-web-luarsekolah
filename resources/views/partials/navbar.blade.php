@@ -9,7 +9,7 @@
                 </a>
 
                 <div class="hidden md:flex">
-                    <button class="flex items-center gap-1.5 text-black text-lg font-normal">
+                    <button class="flex items-center gap-1.5 text-lg text-black font-normal font-poppins">
                         <span>Program</span>
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -30,10 +30,10 @@
             </div>
 
             <div class="hidden md:flex items-center gap-4">
-                <a href="#" class="w-[139px] h-11 flex justify-center items-center border border-[#9BA1A9] rounded-md text-[#1F2738] text-sm font-semibold hover:bg-gray-50">
+                <a href="#" class="w-[139px] h-11 flex justify-center items-center border border-[#9BA1A9] rounded-md text-[#1F2738] text-sm font-semibold font-poppins hover:bg-gray-50">
                     Masuk
                 </a>
-                <a href="#" class="w-[139px] h-11 flex justify-center items-center bg-[#005545] rounded-md text-[#E6E7E8] text-sm font-semibold hover:bg-[#004437]">
+                <a href="#" class="w-[139px] h-11 flex justify-center items-center bg-[#005545] rounded-md text-[#E6E7E8] text-sm font-semibold font-poppins hover:bg-[#004437]">
                     Daftar
                 </a>
             </div>

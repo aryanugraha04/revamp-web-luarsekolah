@@ -1,6 +1,42 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
+
+@layer utilities {
+    /* Mendefinisikan animasi scrolling dari kanan ke kiri */
+    @keyframes marquee {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    /* Mendefinisikan animasi scrolling dari kiri ke kanan */
+    @keyframes marquee-reverse {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0%); }
+    }
+
+    /* Membuat kelas yang bisa kita panggil di HTML */
+    .animate-marquee {
+        animation: marquee 30s linear infinite;
+    }
+
+    .animate-marquee-reverse {
+        animation: marquee-reverse 30s linear infinite;
+    }
+}
+
+/* Kelas untuk menerapkan font Poppins */
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Kelas untuk menerapkan font stack SF Pro */
+.font-sf-pro {
+    /* Browser akan mencoba 'SF Pro' dulu (di Mac/iOS), jika tidak ada, ia akan memakai 'Inter' */
+    font-family: 'SF Pro', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
