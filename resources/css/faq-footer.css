@@ -1,0 +1,53 @@
+/* FAQ Section Styles */
+.faq-section {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.faq-section input,
+.faq-section textarea {
+    transition: all 0.3s ease;
+}
+
+.faq-section input:focus,
+.faq-section textarea:focus {
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+}
+
+/* Smooth transitions for all interactive elements */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* Hover effects for social icons */
+footer .bg-gray-800:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* App download buttons hover effect */
+footer .bg-black:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .faq-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    footer {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    footer .grid {
+        gap: 2rem;
+    }
+}

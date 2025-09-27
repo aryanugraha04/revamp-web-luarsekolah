@@ -56,3 +56,58 @@ const observer = new IntersectionObserver((entries, observer) => {
 if (statsSection) {
     observer.observe(statsSection);
 }
+
+// Lokasi: resources/js/app.js
+
+// 1. Impor Swiper dan modul yang dibutuhkan
+// Lokasi: resources/js/app.js
+// Lokasi: resources/js/app.js
+import Swiper from 'swiper';
+import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+const swiper = new Swiper('.swiper-container', {
+    modules: [Navigation, Pagination, EffectCoverflow],
+    
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    
+    slidesPerView: 1.2, // Mulai dengan lebih sedikit slide terlihat untuk mobile
+    spaceBetween: 20, // Jarak antar slide
+
+    // PERUBAHAN UTAMA DI SINI UNTUK EFEK COVERFLOW
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 250,         // <-- Perbesar kedalaman untuk efek 3D yang lebih jelas
+        modifier: 2.5,      // <-- Ini PENTING: Perbesar modifier untuk membuat slide tengah jauh lebih besar
+        slideShadows: false,
+    },
+    
+    breakpoints: {
+        640: {
+        slidesPerView: 2.2, // Sesuaikan jumlah slide terlihat
+        spaceBetween: 30,
+        },
+        1024: {
+        slidesPerView: 2.8, // Sesuaikan jumlah slide terlihat
+        spaceBetween: 40,
+        },
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});

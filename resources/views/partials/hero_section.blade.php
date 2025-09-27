@@ -1,8 +1,8 @@
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
         <div class="flex flex-col gap-8">
-            <div class="bg-teal-800 text-white p-8 md:p-12 rounded-3xl flex flex-col items-start gap-8">
+            <div class="bg-[#005545] text-white p-8 md:p-12 rounded-3xl flex flex-col items-start gap-8">
                 <h1 class="text-4xl md:text-5xl font-[590] leading-tight font-sf-pro ">Belajar Skill <br> Raih Karier Impian</h1>
                 <p class="text-gray-200 font-poppins font-normal">Ikuti kelas interaktif, program bootcamp, hingga magang nyata untuk mempersiapkan karier yang lebih baik.</p>
                 <a href="#" class="bg-white rounded-md h-[60px] w-full sm:w-[258px] flex items-center justify-between p-2.5 group transition-transform duration-300 ease-in-out hover:scale-105">
