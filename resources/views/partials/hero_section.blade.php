@@ -5,7 +5,8 @@
             <div class="bg-[#005545] text-white p-8 md:p-12 rounded-3xl flex flex-col items-start gap-8">
                 <h1 class="text-4xl md:text-5xl font-[590] leading-tight font-sf-pro ">Belajar Skill <br> Raih Karier Impian</h1>
                 <p class="text-gray-200 font-poppins font-normal">Ikuti kelas interaktif, program bootcamp, hingga magang nyata untuk mempersiapkan karier yang lebih baik.</p>
-                <a href="#" class="bg-white rounded-md h-[60px] w-full sm:w-[258px] flex items-center justify-between p-2.5 group transition-transform duration-300 ease-in-out hover:scale-105">
+                <a href="https://authentication.luarsekolah.com/daftar?q=eyJpdiI6ImpZV3U0R2w0YU1qMXRia3ZUT0xWbHc9PSIsInZhbHVlIjoiMzRVRGZKWW9vbDZJQ25uYnJtRHVCZXB1Y1Q0QlJrQVNkSDIvTG8zcjJYeWsyRFZCN1BXR1BEM3o5c1FQdFNvT0xRcy84T3JsbnVsMnd5TzJUVWhsN1lBZjlLNEtQRnpEeGlwTjhtV041cWM9IiwibWFjIjoiZjVjNGEzZmY5ZmI0NGVjNWFlZWVkYjEzZmVjNzJmYThhOWJiZjkxMGI0ODU0NDUwZGZkMmJkMjU1MjhhMmFiNCJ9" 
+                class="bg-white rounded-md h-[60px] w-full sm:w-[258px] flex items-center justify-between p-2.5 group transition-transform duration-300 ease-in-out hover:scale-105">
                     <span class="pl-4 text-[#1F2738] font-medium font-poppins">
                         Daftar Sekarang
                     </span>
@@ -18,15 +19,11 @@
             </div>
 
             <div class="flex flex-col gap-4 w-full">
-                @php
-                    $categories = ['Graphic Design', 'Digital Marketing', 'Data Science', 'Web Development', 'UI/UX Design', 'Software Engineering'];
-                @endphp
-
                 <div class="w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
                     <div class="flex animate-marquee">
                         @foreach ($categories as $category)
                             <a href="#" class="flex-shrink-0 flex items-center justify-center gap-[10px] h-[67px] py-2 px-4 mx-2 border-2 border-[#00CC99] rounded-full transition-colors hover:bg-[#00CC99]/10">
-                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category }}</span>
+                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category->name }}</span>
                                 <svg class="w-8 h-8 text-black transform rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
                                 </svg>
@@ -34,7 +31,7 @@
                         @endforeach
                         @foreach ($categories as $category)
                             <a href="#" class="flex-shrink-0 flex items-center justify-center gap-[10px] h-[67px] py-2 px-4 mx-2 border-2 border-[#00CC99] rounded-full transition-colors hover:bg-[#00CC99]/10">
-                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category }}</span>
+                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category->name }}</span>
                                 <svg class="w-8 h-8 text-black transform rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
                                 </svg>
@@ -46,7 +43,7 @@
                     <div class="flex animate-marquee-reverse">
                         @foreach ($categories as $category)
                             <a href="#" class="flex-shrink-0 flex items-center justify-center gap-[10px] h-[67px] py-2 px-4 mx-2 border-2 border-[#00CC99] rounded-full transition-colors hover:bg-[#00CC99]/10">
-                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category }}</span>
+                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category->name }}</span>
                                 <svg class="w-8 h-8 text-black transform rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
                                 </svg>
@@ -54,7 +51,7 @@
                         @endforeach
                         @foreach ($categories as $category)
                             <a href="#" class="flex-shrink-0 flex items-center justify-center gap-[10px] h-[67px] py-2 px-4 mx-2 border-2 border-[#00CC99] rounded-full transition-colors hover:bg-[#00CC99]/10">
-                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category }}</span>
+                                <span class="text-black font-medium whitespace-nowrap font-poppins">{{ $category->name }}</span>
                                 <svg class="w-8 h-8 text-black transform rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
                                 </svg>

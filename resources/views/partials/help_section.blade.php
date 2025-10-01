@@ -1,4 +1,4 @@
-<section class="bg-white py-12 md:py-24">
+<section class="bg-white py-12 md:py-24 pt-[100px]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-[#005545] rounded-3xl p-8 md:p-16">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

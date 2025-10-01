@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between gap-4">
 
             <div class="flex items-center gap-8">
-                <a href="/">
+                <a href="https://www.luarsekolah.com/">
                     <img class="w-[149px] h-[75px] object-contain" src="{{ asset('assets/svg/logo-luarsekolah.svg') }}" alt="Logo Luarsekolah">
                 </a>
 
@@ -30,10 +30,12 @@
             </div>
 
             <div class="hidden md:flex items-center gap-4">
-                <a href="#" class="w-[139px] h-11 flex justify-center items-center border border-[#9BA1A9] rounded-md text-[#1F2738] text-sm font-semibold font-poppins hover:bg-gray-50">
+                <a href="https://authentication.luarsekolah.com/?q=eyJpdiI6IjRldDlLNXVUaDVuVFpueFh6bk1vTmc9PSIsInZhbHVlIjoiSGwyS2ZydWliYzdaTXNXUjcvR2VqMFZwT2hOSWVwaUpHTlk4TWVUTnJOR09YNjdZakdMaUU5ck1UaDg3MHJYMyIsIm1hYyI6IjgxZDAyODUwNjI0ZDRlZTE2OGJlZDhjMDc1ZTQ3NmY0NTdhMzQ4MTQ4MjFlMDk3MzEzMjdhZDRiYmNkNzAyOTgifQ==" 
+                class="w-[139px] h-11 flex justify-center items-center border border-[#9BA1A9] rounded-md text-[#1F2738] text-sm font-semibold font-poppins hover:bg-gray-100 transition-colors">
                     Masuk
                 </a>
-                <a href="#" class="w-[139px] h-11 flex justify-center items-center bg-[#005545] rounded-md text-[#E6E7E8] text-sm font-semibold font-poppins hover:bg-[#004437]">
+                <a href="https://authentication.luarsekolah.com/daftar?q=eyJpdiI6Im1waitZYUJNNkFiK3pYUXZRSEFxQ0E9PSIsInZhbHVlIjoiU3FLRWRIWVdIOWlXZ0VxWEFvdlpNQlhYMy9KdkN4Ym9aSnNhekRrcUkvM2JSZ2xmUjM0SVNjUitWcUV0YUNUVnp6MXYyZHBQN3dlRWs1SFEzM25VSkF3VktMWTVuTUdGdy9INmYyTnlGN2s9IiwibWFjIjoiMDQwZDkzMTRjYWM0YTlmYjNlMjcxMjllMmVlOTk4ODA4ZTc5ZTZiMTJmZjQ5NzFlZmE3ZjFiNTQxZDUwMDQyMyJ9" 
+                class="w-[139px] h-11 flex justify-center items-center bg-[#005545] rounded-md text-[#E6E7E8] text-sm font-semibold font-poppins hover:bg-[#004437]">
                     Daftar
                 </a>
             </div>
