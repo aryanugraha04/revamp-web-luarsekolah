@@ -15,6 +15,8 @@
 
     @include('partials.testimonial_section')
 
+    @include('partials.partnership_section')
+
     @include('partials.help_section')
 
 

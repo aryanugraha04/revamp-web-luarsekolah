@@ -21,56 +21,99 @@
             </div>
             
             <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-2 mt-10 font-poppins">
-                Apa Kata Mereka Setelah Belajar di 
+                Testimoni Mereka Setelah Belajar di 
                 <span class="text-[#00CC99]">LuarSekolah</span>
                 <span class="text-yellow-400">✨</span>
             </h2>
         </div>
 
         {{-- Filter Tabs --}}
+        {{-- Filter Tabs (Versi Baru) --}}
         <div class="mb-10">
             <div class="flex flex-wrap gap-3 justify-center">
+
+                {{-- Tombol "Semua" dalam keadaan aktif --}}
                 <button 
                     data-filter="all"
-                    class="filter-btn active px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 bg-teal-600 text-white border-2 border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 
+                        bg-teal-500 text-white border border-teal-500"
                 >
                     Semua
                 </button>
+
+                {{-- Tombol lainnya dalam keadaan tidak aktif --}}
                 <button 
                     data-filter="graphic-design"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     Graphic Design
                 </button>
                 <button 
                     data-filter="digital-marketing"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     Digital Marketing
                 </button>
+
+                {{-- ... Tambahkan tombol-tombol lain dengan class yang sama seperti di atas ... --}}
+
                 <button 
                     data-filter="web-development"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     Web Development
                 </button>
                 <button 
                     data-filter="ui-ux-design"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     UI/UX Design
                 </button>
                 <button 
                     data-filter="software-engineering"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     Software Engineering
                 </button>
                 <button 
                     data-filter="social-media-marketing"
-                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-gray-600 hover:text-teal-600 border-2 border-gray-300 hover:border-teal-600"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
                 >
                     Social Media Marketing
+                </button>
+                <button 
+                    data-filter="marketing-communication"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                >
+                    Marketing Communication
+                </button>
+                <button 
+                    data-filter="data-analytic"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                >
+                    Data Analytic
+                </button>
+                <button 
+                    data-filter="content-writing"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                >
+                    Content Writing
+                </button>
+                <button 
+                    data-filter="accounting"
+                    class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                >
+                    Accounting
                 </button>
             </div>
         </div>

@@ -11,8 +11,7 @@
         <div class="mb-12 ml-[104px] mt-[41px] gap-[193px]">
             <h2 class="text-2xl font-semibold text-white mb-6 font-poppins">Program dari Luarsekolah</h2>
             <p class="text-emerald-100 text-lg max-w-2xl leading-relaxed font-poppins font-normal">
-                Lorem ipsum dolor sit amet consectetur. Purus laoreet pellentesque sed faucibus tempor non sit. 
-                Egestas sit et cras tincidunt nulla.
+                Luarsekolah adalah platform belajar fleksibel dengan harga hemat.<br> Skill siap kerja kini bisa kamu punya.
             </p>
         </div>
 

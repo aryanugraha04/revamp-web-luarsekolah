@@ -3,12 +3,12 @@
 
         <div class="flex flex-col gap-8">
             <div class="bg-[#005545] text-white p-8 md:p-12 rounded-3xl flex flex-col items-start gap-8">
-                <h1 class="text-4xl md:text-5xl font-[590] leading-tight font-sf-pro ">Belajar Skill <br> Raih Karier Impian</h1>
-                <p class="text-gray-200 font-poppins font-normal">Ikuti kelas interaktif, program bootcamp, hingga magang nyata untuk mempersiapkan karier yang lebih baik.</p>
+                <h1 class="text-4xl md:text-5xl font-[590] leading-tight font-sf-pro ">Eksplorasi Skill<br> dan Karier dengan Luarsekolah </h1>
+                <p class="text-gray-200 font-poppins font-normal">Wujudkan cita-cita karirmu dengan skill siap industri dan biaya yang terjangkau.</p>
                 <a href="https://authentication.luarsekolah.com/daftar?q=eyJpdiI6ImpZV3U0R2w0YU1qMXRia3ZUT0xWbHc9PSIsInZhbHVlIjoiMzRVRGZKWW9vbDZJQ25uYnJtRHVCZXB1Y1Q0QlJrQVNkSDIvTG8zcjJYeWsyRFZCN1BXR1BEM3o5c1FQdFNvT0xRcy84T3JsbnVsMnd5TzJUVWhsN1lBZjlLNEtQRnpEeGlwTjhtV041cWM9IiwibWFjIjoiZjVjNGEzZmY5ZmI0NGVjNWFlZWVkYjEzZmVjNzJmYThhOWJiZjkxMGI0ODU0NDUwZGZkMmJkMjU1MjhhMmFiNCJ9" 
                 class="bg-white rounded-md h-[60px] w-full sm:w-[258px] flex items-center justify-between p-2.5 group transition-transform duration-300 ease-in-out hover:scale-105">
                     <span class="pl-4 text-[#1F2738] font-medium font-poppins">
-                        Daftar Sekarang
+                        Mulai Belajar
                     </span>
                     <div class="flex items-center justify-center w-10 h-10 bg-[#005545] rounded-full transition-transform duration-300 group-hover:translate-x-1 pr-px">
                         <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
@@ -61,21 +61,21 @@
                 </div>
             </div>
         </div>
-
-        <div class="relative w-full h-full">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop" alt="Company Profile Luar Sekolah" class="absolute inset-0 w-full h-full object-cover rounded-3xl">
-            <div class="absolute inset-0 flex items-center justify-center">
-                <button class="bg-white/30 backdrop-blur-sm rounded-full p-4 hover:bg-white/40 transition">
-                    <svg class="w-12 h-12 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-                    </svg>
-                </button>
+        <a href="https://youtu.be/HfHa7pUfm0M?si=Ku_s8BPioN82NJO0">
+            <div class="relative w-full h-full">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop" alt="Company Profile Luar Sekolah" class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <button class="bg-white/30 backdrop-blur-sm rounded-full p-4 hover:bg-white/40 transition">
+                        <svg class="w-12 h-12 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="absolute bottom-8 left-8">
+                    <h2 class="text-white text-4xl md:text-5xl font-semibold font-sf-pro drop-shadow-lg">Company Profile <br> Luar Sekolah</h2>
+                </div>
             </div>
-            <div class="absolute bottom-8 left-8">
-                <h2 class="text-white text-4xl md:text-5xl font-semibold font-sf-pro drop-shadow-lg">Company Profile <br> Luar Sekolah</h2>
-            </div>
-        </div>
-
+        </a>
     </div>
 </section>
 

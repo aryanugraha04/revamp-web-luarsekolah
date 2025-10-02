@@ -11,6 +11,8 @@
 
     {{-- Contoh jika menggunakan Vite --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @stack('styles')
 </head>
 <body>
 
@@ -24,6 +26,8 @@
 
     {{-- Memasukkan Footer --}}
     @include('partials.footer')
+
+    @stack('scripts')
 
     </body>
 </html>
