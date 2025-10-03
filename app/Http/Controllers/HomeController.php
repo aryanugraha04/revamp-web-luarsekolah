@@ -10,6 +10,7 @@ use App\Models\Article;
 use App\Models\Tag;
 use App\Models\Course;
 use App\Models\Partnership;
+use App\Models\Testimonial;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,7 @@ class HomeController extends Controller
         $tags = Tag::all();
         $courses = Course::all(); 
         $partnerships = Partnership::all();
+        $testimonials = Testimonial::all();
 
         // Kirim data categories ke view
         return view('pages.home', [
@@ -33,6 +35,7 @@ class HomeController extends Controller
             'tags' => $tags,
             'courses' => $courses,
             'partnerships' => $partnerships,
+            'testimonials' => $testimonials,
         ]);
     }
 }

@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', [HomeController::class, 'index']);
 
@@ -22,5 +23,7 @@ Route::get('/test', function (){
         'app_name'=>env('APP_NAME')
     ]);
 });
+
+Route::post('/contact-us', [ContactController::class, 'submit'])->name('contact.submit');
 
 require __DIR__.'/auth.php';

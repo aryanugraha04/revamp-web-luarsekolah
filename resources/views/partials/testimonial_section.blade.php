@@ -36,7 +36,7 @@
                 <button 
                     data-filter="all"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 
-                        bg-teal-500 text-white border border-teal-500"
+                        bg-teal-500 text-white border border-teal-500 font-poppins"
                 >
                     Semua
                 </button>
@@ -45,14 +45,14 @@
                 <button 
                     data-filter="graphic-design"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Graphic Design
                 </button>
                 <button 
                     data-filter="digital-marketing"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Digital Marketing
                 </button>
@@ -62,56 +62,56 @@
                 <button 
                     data-filter="web-development"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Web Development
                 </button>
                 <button 
                     data-filter="ui-ux-design"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     UI/UX Design
                 </button>
                 <button 
                     data-filter="software-engineering"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Software Engineering
                 </button>
                 <button 
                     data-filter="social-media-marketing"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Social Media Marketing
                 </button>
                 <button 
                     data-filter="marketing-communication"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Marketing Communication
                 </button>
                 <button 
                     data-filter="data-analytic"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Data Analytic
                 </button>
                 <button 
                     data-filter="content-writing"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Content Writing
                 </button>
                 <button 
                     data-filter="accounting"
                     class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all duration-300
-                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500"
+                        bg-transparent text-slate-500 border border-slate-300 hover:border-teal-500 hover:text-teal-500 font-poppins"
                 >
                     Accounting
                 </button>
@@ -123,58 +123,58 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-6">
 
                 <div class="lg:row-span-2 bg-white p-8 rounded-2xl border border-gray-200 flex flex-col transition-all duration-300 hover:bg-teal-600 hover:text-white group" data-filter="graphic-design">
-                    <h3 class="text-5xl font-bold text-gray-900 group-hover:text-white">4X</h3>
-                    <p class="text-xl font-semibold mt-2 text-gray-800 group-hover:text-white">Peningkatan Portofolio dan Kesempatan Kerja</p>
+                    <h3 class="text-5xl font-bold text-gray-900 group-hover:text-white">{{ $testimonials[0]->achievement }}</h3>
+                    <p class="text-xl font-semibold mt-2 text-gray-800 group-hover:text-white font-poppins">{{ $testimonials[0]->achievement_description }}</p>
                     <span class="text-5xl text-yellow-400 mt-6">”</span>
-                    <p class="text-gray-600 mt-4 flex-grow group-hover:text-white">
-                        "Sebelum ikut kelas Graphic Design di LuarSekolah, saya hanya bisa desain sederhana untuk kebutuhan pribadi. Setelah belajar, saya berhasil membangun portofolio profesional dan mendapatkan 3 proyek freelance pertama saya hanya dalam 2 bulan. Materi yang diajarkan sangat relevan dengan kebutuhan industri."
+                    <p class="text-gray-600 mt-4 flex-grow group-hover:text-white font-poppins font-normal">
+                        {{ $testimonials[0]->content }}
                     </p>
                     <div class="flex items-center gap-4 mt-8 pt-6">
-                        <div class="w-12 h-12 bg-red-100 text-red-700 flex items-center justify-center rounded-full font-bold">SR</div>
+                        <div class="w-12 h-12 text-red-700 flex items-center justify-center rounded-full font-bold"><img class="rounded-full" src="{{ $testimonials[0]->avatar_url }}" alt=""></div>
                         <div>
-                            <p class="font-semibold text-gray-900 group-hover:text-white">Saeful Rizal</p>
-                            <p class="text-sm text-gray-500 group-hover:text-gray-200">Junior Graphic Designer di Telkomsel</p>
+                            <p class="font-semibold text-gray-900 group-hover:text-white font-poppins">{{ $testimonials[0]->name }}</p>
+                            <p class="text-sm text-gray-500 group-hover:text-gray-200 font-poppins">{{ $testimonials[0]->position }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="lg:col-span-2 bg-white p-6 rounded-2xl border border-gray-200 transition-all duration-300 hover:bg-teal-600 hover:text-white group">
-                    <h3 class="text-3xl font-bold text-gray-900 group-hover:text-white">4X</h3>
-                    <p class="font-semibold text-gray-700 mt-1 group-hover:text-white">Lebih Percaya Diri dalam Skill Desain</p>
-                    <p class="text-gray-600 mt-4 group-hover:text-white">
-                        “Kelas Graphic Design di LuarSekolah membuat saya jauh lebih percaya diri. Saya belajar tools industri seperti Photoshop & Illustrator, juga bagaimana membuat desain yang komunikatif. Sekarang, saya dipercaya menjadi designer tetap di perusahaan startup lokal.”
+                    <h3 class="text-3xl font-bold text-gray-900 group-hover:text-white font-poppins">{{ $testimonials[1]->achievement }}</h3>
+                    <p class="font-semibold text-gray-700 mt-1 group-hover:text-white font-poppins">{{ $testimonials[1]->achievement_description }}</p>
+                    <p class="text-gray-600 mt-4 group-hover:text-white font-poppins font-normal">
+                        {{ $testimonials[1]->content }}
                     </p>
                     <div class="flex items-center gap-3 mt-6">
-                        <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center font-bold">AP</div>
+                        <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center font-bold"><img class="rounded-full" src="{{ $testimonials[1]->avatar_url }}" alt=""></div>
                         <div>
-                            <p class="font-semibold text-gray-900 group-hover:text-white">Andi Prasetiyo</p>
-                            <p class="text-sm text-gray-500 group-hover:text-gray-200">Graphic Designer, Startup Tech Bandung</p>
+                            <p class="font-semibold text-gray-900 group-hover:text-white font-poppins">{{ $testimonials[1]->name }}</p>
+                            <p class="text-sm text-gray-500 group-hover:text-gray-200 font-poppins">{{ $testimonials[1]->position }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="bg-white p-6 rounded-2xl border border-gray-200 transition-all duration-300 hover:bg-teal-600 hover:text-white group">
-                    <p class="text-gray-600 group-hover:text-white">
-                        “Kursus Software Engineering di LuarSekolah sangat komprehensif. Dari nol hingga mahir, saya diajarkan best practices dan clean code. Sekarang saya bekerja sebagai Full Stack Developer di perusahaan teknologi ternama.”
+                    <p class="text-gray-600 group-hover:text-white font-poppins font-normal">
+                        {{ $testimonials[2]->content }}
                     </p>
                     <div class="flex items-center gap-3 mt-6">
-                        <div class="w-10 h-10 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold">AF</div>
+                        <div class="w-10 h-10 text-green-700 rounded-full flex items-center justify-center font-bold"><img class="rounded-full" src="{{ $testimonials[2]->avatar_url }}" alt=""></div>
                         <div>
-                            <p class="font-semibold text-gray-900 group-hover:text-white">Ahmad Fauzi</p>
-                            <p class="text-sm text-gray-500 group-hover:text-gray-200">Full Stack Developer</p>
+                            <p class="font-semibold text-gray-900 group-hover:text-white font-poppins">{{ $testimonials[2]->name }}</p>
+                            <p class="text-sm text-gray-500 group-hover:text-gray-200 font-poppins">{{ $testimonials[2]->position }}</p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-white p-6 rounded-2xl border border-gray-200 transition-all duration-300 hover:bg-teal-600 hover:text-white group">
-                    <p class="text-gray-600 group-hover:text-white">
-                    “Belajar Social Media Marketing di LuarSekolah mengubah cara pandang saya tentang digital marketing. Strategi yang diajarkan sangat aplikatif dan hasilnya terlihat dalam 2 minggu pertama implementasi.”
+                    <p class="text-gray-600 group-hover:text-white font-poppins font-normal">
+                    {{ $testimonials[3]->content }}
                     </p>
                     <div class="flex items-center gap-3 mt-6">
-                        <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center font-bold">SN</div>
+                        <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center font-bold"><img class="rounded-full" src="{{ $testimonials[3]->avatar_url }}" alt=""></div>
                         <div>
-                            <p class="font-semibold text-gray-900 group-hover:text-white">Siti Nurhasanah</p>
-                            <p class="text-sm text-gray-500 group-hover:text-gray-200">Social Media Manager</p>
+                            <p class="font-semibold text-gray-900 group-hover:text-white font-poppins">{{ $testimonials[3]->name }}</p>
+                            <p class="text-sm text-gray-500 group-hover:text-gray-200 font-poppins">{{ $testimonials[3]->position }}</p>
                         </div>
                     </div>
                 </div>

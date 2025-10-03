@@ -1,3 +1,12 @@
+@if (session('success'))
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-4">
+        <div class="bg-teal-100 border-l-4 border-teal-500 text-teal-700 p-4 rounded-md" role="alert">
+            <p class="font-bold">Sukses!</p>
+            <p>{{ session('success') }}</p>
+        </div>
+    </div>
+@endif
+
 <section class="bg-white py-12 md:py-24 pt-[100px]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-[#005545] rounded-3xl p-8 md:p-16">
@@ -21,7 +30,7 @@
                 </div>
 
                 <div>
-                    <form action="#" method="POST" class="space-y-6">
+                    <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
                         @csrf
                         <div>
                             <input type="text" name="name" id="name" placeholder="Nama" class="w-full bg-white rounded-lg border-transparent px-4 py-3 focus:ring-2 focus:ring-amber-400 font-poppins font-normal">
